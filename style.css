@@ -23,3 +23,23 @@ button {
 button:hover {
     background-color: #2980b9;
 }
+
+img {
+max-width: 100%;
+height:auto;
+border-radius: 8px;
+box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.image-container{
+    text-align: center;
+}
+img.left{
+    float:left;
+    margin-right: 20px;
+}
+@media (max-width:768px){
+    img{
+        width:100%;
+    }
+}
